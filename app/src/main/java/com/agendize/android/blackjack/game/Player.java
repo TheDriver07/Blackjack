@@ -1,4 +1,5 @@
-package com.agendize.android.blackjack.game;
+import com.agendize.android.blackjack.game.Card;
 
 public class Player {
+
 }
