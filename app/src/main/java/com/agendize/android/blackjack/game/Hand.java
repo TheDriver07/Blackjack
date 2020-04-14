@@ -24,10 +24,10 @@ public class Main {
         Card c3 = new Card(8,Card.TREFLES);
         Card c4 = new Card(6, Card.TREFLES);
         MainJoueur mj = new MainJoueur();
-        mj.ajouterCard(c1);
-        mj.ajouterCard(c2);
-        mj.ajouterCard(c3);
-        mj.ajouterCard(c4);
+        mj.ajoutCard(c1);
+        mj.ajoutCard(c2);
+        mj.ajoutCard(c3);
+        mj.ajoutCard(c4);
         System.out.println(mj);
         mj.enleverCard(2);
 

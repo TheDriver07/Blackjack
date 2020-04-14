@@ -11,15 +11,14 @@ import java.util.Random;
 public class Deck {
     private List<Card> cards;
 
-    public Deck() {
+public Deck() {
         cards = new ArrayList<>(52);
     }
-}
 
 public void shuffleCards() {
         Collections.shuffle(cards, new Random());
-        currentCard = 0;
-}
+        int currentCard = 0; // Prochaine carte à prendre sera la première du tas
+    }
 
 public Deck() {
         cards = new ArrayList<>(52);
